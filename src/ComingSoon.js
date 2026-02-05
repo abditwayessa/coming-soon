@@ -1,18 +1,13 @@
-import { useEffect } from 'react';
 import { useTheme } from '@mui/material/styles';
 import {
   Box,
   Typography,
-  Button,
   Container,
 } from '@mui/material';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import { useNavigate } from 'react-router-dom';
 
 export default function ComingSoon() {
   const theme = useTheme();
-  const navigate = useNavigate();
   const isDarkMode = theme.palette.mode === 'dark';
   const primaryColor = "#00adef";
   // theme.palette.primary.main;
@@ -61,7 +56,7 @@ export default function ComingSoon() {
               />
             </Box>
           </Box>
-          
+
           <Typography
             variant="h5"
             fontWeight="bold"

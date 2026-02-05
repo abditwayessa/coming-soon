@@ -6,7 +6,7 @@ import ComingSoon from './ComingSoon';
 const App = () => {
   return (
     <Routes> {/* Wrap routes with Routes */}
-      <Route path="/coming-soon" element={<ComingSoon />} />
+      <Route path="/" element={<ComingSoon />} />
       {/* Add other routes here if needed */}
     </Routes>
   );
