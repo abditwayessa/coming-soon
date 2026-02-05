@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '16'  # Set to the version of Node.js you're using
+        node-version: '22'  # Set to the version of Node.js you're using
 
     - name: Install dependencies
       run: npm install
@@ -28,4 +28,4 @@ jobs:
       uses: wzieba/Firebase-Action@v2
       with:
         firebase_token: ${{ secrets.FIREBASE_TOKEN }}
-        project_id: your-project-id  # Replace with your Firebase project ID
+        project_id: visit-oromia-80851
