@@ -85,7 +85,7 @@ export default function ComingSoon() {
               lineHeight: 1.6,
             }}
           >
-            This feature is currently under development. Stay tuned for updates.
+            This feature is currently under development. Stay tuned for updates!
           </Typography>
         </Box>
       </Container>
