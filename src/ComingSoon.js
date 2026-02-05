@@ -61,8 +61,7 @@ export default function ComingSoon() {
               />
             </Box>
           </Box>
-
-          {/* --- Typography --- */}
+          
           <Typography
             variant="h5"
             fontWeight="bold"
